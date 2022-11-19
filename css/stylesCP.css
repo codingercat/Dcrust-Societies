@@ -1,0 +1,199 @@
+/* notice styling */
+.notif{
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 60vh;
+  color: white;
+}
+
+#blink{
+  color: yellow;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -400%);
+}
+.notice-box{
+  position: relative;
+  text-align: center;
+}
+
+/* main page styling */
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-align: center;
+}
+.heading-first{
+  font-size: 10rem;
+  font-family: 'Kristi', cursive;
+  line-height: normal;
+  color: #33cccc;
+}
+
+li:hover{
+  background-color:#33cccc;
+}
+body{
+  background-color: black;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-container{
+  width:auto;
+  padding-bottom: 10%;
+}
+
+h1{
+  color: white;
+  font-size: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 30vh;
+  font-weight: normal;
+}
+
+h2{
+  font-family: 'Kristi', cursive;
+  font-size: 5rem;
+  font-weight: normal;
+}
+.socities{
+  color: #33cccc;
+  font-family: 'Kristi', cursive;
+  font-size: 8rem;
+  font-weight: normal;
+}
+.auto-type{
+  font-family: 'Fredericka the Great', cursive;
+  color:#fdfe19;
+  font-size: 3rem;
+}
+
+span{
+  transform: translateY(50px);
+  display: inline-block;
+  color: black;
+}
+
+.header{
+  height:20vh;
+  width: 100vh;
+  padding: 3%;
+  position: relative;
+  background-color: black;
+}
+
+.introduction{
+  width:auto;
+  font-size: 150%;
+  padding: 10% 0 10%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 15%;
+}
+.nav-links{
+  position: relative;
+  left: 110%;
+
+}
+.nav-links li{
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav-links li a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 5px 0;
+  position: relative;
+}
+.nav-links li a::after{
+  content: '';
+  background: #fdfe19;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom : 0;
+  left: 0;
+
+}
+
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.welcome{
+  color: white;
+  line-height: 20vh;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: rem;
+}
+#middle-container{
+  width:auto;
+  background-color: white;
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+
+.typewriter{
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+.piano{
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+
+.bottom-container{
+  height:250%;
+  width: 100%;
+}
+.get{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 20vh;
+  padding-bottom: 0;
+}
+
+.btn {
+background-color: #33cccc;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+ border-radius: 28px;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 0.4% 0.4% 0.4% 0.4%;
+ text-decoration: none;
+}
+
+.btn:hover {
+  background: inherit;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.copyrights{
+  color: white;
+}
