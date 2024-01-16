@@ -19,7 +19,7 @@ https://github.com/codingercat/DCRUST_Socities/assets/97224152/a3da4f41-350a-456
 
 💡  So to put some light on this, I thought a systematic way of dealing with the induction procedure of societies is the best way for students as well as the coordinators of the societies. There will be a listing of societies, the work that they do, their achievements, their goals and vision, and any specific requirements.
 
-⚒️   Currently, the website has been built only using HTML,CSS and JavaScript and the backend is still being processed. I plan on to create it a fully functional website so that juniors can thank me later :)
+⚒️   Currently, the website has been built only using HTML,CSS and JavaScript and the backend is still being processed. I plan on to create it a fully functional website so that it can help out as many students as possible.
 
 The website has the following features to offer:
 
